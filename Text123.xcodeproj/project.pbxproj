@@ -17,6 +17,7 @@
 		0F6C913B16D1CCC900D869B7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F6C913A16D1CCC900D869B7 /* Default@2x.png */; };
 		0F6C913D16D1CCC900D869B7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F6C913C16D1CCC900D869B7 /* Default-568h@2x.png */; };
 		0F6C914516D1D27300D869B7 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6C914416D1D27300D869B7 /* HomeViewController.m */; };
+		639D25E816D1D323002B3994 /* aViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 639D25E716D1D323002B3994 /* aViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		0F6C913C16D1CCC900D869B7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		0F6C914316D1D27300D869B7 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		0F6C914416D1D27300D869B7 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		639D25E616D1D323002B3994 /* aViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aViewController.h; sourceTree = "<group>"; };
+		639D25E716D1D323002B3994 /* aViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				0F6C912D16D1CCC900D869B7 /* Supporting Files */,
 				0F6C914316D1D27300D869B7 /* HomeViewController.h */,
 				0F6C914416D1D27300D869B7 /* HomeViewController.m */,
+				639D25E616D1D323002B3994 /* aViewController.h */,
+				639D25E716D1D323002B3994 /* aViewController.m */,
 			);
 			path = Text123;
 			sourceTree = "<group>";
@@ -172,6 +177,7 @@
 				0F6C913316D1CCC900D869B7 /* main.m in Sources */,
 				0F6C913716D1CCC900D869B7 /* AppDelegate.m in Sources */,
 				0F6C914516D1D27300D869B7 /* HomeViewController.m in Sources */,
+				639D25E816D1D323002B3994 /* aViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +284,7 @@
 				0F6C914216D1CCC900D869B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
