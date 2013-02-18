@@ -22,7 +22,10 @@
     }
     return self;
 }
+-(void)loadView
+{
 
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];
